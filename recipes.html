@@ -1,30 +1,134 @@
+<!--Assignment 1-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classic Chocolate Chip Cookies Recipe</title>
+    <title>Classic Chocolate Chip Cookies</title>
+    <style>
+        /* Font imports */
+        @import url('https://fonts.cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+        
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+        }
+
+        /* Recipe container */
+        .recipe-container, div:not(.section) {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #2d2d2d;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+
+        /* Header styles */
+        h1 {
+            font-family: 'Georgia', serif;
+            font-size: 2.5em;
+            margin: 0;
+            text-align: center;
+            color: #ffd700;
+        }
+
+        /* Section styles */
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #2d2d2d;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #ffd700;
+            font-family: 'Georgia', serif;
+            border-bottom: 2px solid #ffd700;
+            padding-bottom: 10px;
+        }
+
+        /* Lists */
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Links */
+        a {
+            color: #ffd700;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #ffeb99;
+            text-decoration: underline;
+        }
+
+        /* Add Recipe Button */
+        .add-recipe-btn {
+            display: block;
+            width: 200px;
+            margin: 30px auto;
+            padding: 15px 30px;
+            background-color: #3d2b20;
+            color: #ffd700;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .add-recipe-btn:hover {
+            background-color: #523728;
+            color: #ffeb99;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+
+        /* Image styling */
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        /* Footer section */
+        .section:last-child {
+            background-color: #3d2b20;
+            color: #e0e0e0;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
-    <!-- Header with the title of the recipe -->
-    <header>
+    <div>
         <h1>Classic Chocolate Chip Cookies</h1>
-    </header>
+    </div>
 
-    <!-- Intro to recipe -->
-    <section>
-        <p>
-            Indulge in the timeless delight of homemade chocolate chip cookies. These cookies are crispy on the edges, soft in the center, and packed with rich chocolate flavor. Perfect for any occasion!
-        </p>
-        <!-- Hyperlink to the original recipe -->
-        <p>
-            For the full recipe, visit the official Ghirardelli website: 
-            <a href="https://www.ghirardelli.com/recipes/classic-chocolate-chip-cookies-rec1016" target="_blank">Classic Chocolate Chip Cookies Recipe</a>.
-        </p>
-    </section>
+    <div class="section">
+        Indulge in the timeless delight of homemade chocolate chip cookies.
+        These cookies are crispy on the edges, soft in the center, and packed
+        with rich chocolate flavor. Perfect for any occasion!
 
-    <!-- Ingredients in an unordered list -->
-    <section>
+        For the full recipe, visit the official Ghirardelli website: <a href="https://www.ghirardelli.com/recipes/classic-chocolate-chip-cookies-rec1016" target="_blank">Classic
+        Chocolate Chip Cookies Recipe</a>.
+    </div>
+
+    <div class="section">
         <h2>Ingredients</h2>
         <ul>
             <li>1 cup (2 sticks) unsalted butter, softened</li>
@@ -38,35 +142,42 @@
             <li>2 cups semisweet chocolate chips</li>
             <li>1 cup chopped nuts (optional)</li>
         </ul>
-    </section>
+    </div>
 
-    <!-- Steps in an ordered list -->
-    <section>
+    <div class="section">
         <h2>Steps</h2>
         <ol>
-            <li>Preheat the oven to 375°F (190°C). Line baking sheets with parchment paper or silicone baking mats.</li>
-            <li>In a large mixing bowl, cream together the softened butter, granulated sugar, brown sugar, and vanilla extract until light and fluffy.</li>
+            <li>Preheat the oven to 375°F (190°C). Line baking sheets with parchment
+                paper or silicone baking mats.</li>
+            <li>In a large mixing bowl, cream together the softened butter,
+                granulated sugar, brown sugar, and vanilla extract until light and
+                fluffy.</li>
             <li>Add the eggs, one at a time, beating well after each addition.</li>
-            <li>In a separate bowl, whisk together the flour, baking soda, and salt. Gradually add the dry ingredients to the wet ingredients, mixing until just combined.</li>
-            <li>Stir in the chocolate chips and chopped nuts (if using) until evenly distributed throughout the dough.</li>
-            <li>Drop rounded tablespoons of dough onto the prepared baking sheets, spacing them about 2 inches apart.</li>
-            <li>Bake in the preheated oven for 9 to 11 minutes, or until the edges are golden brown.</li>
-            <li>Remove from the oven and allow the cookies to cool on the baking sheets for a few minutes before transferring them to wire racks to cool completely.</li>
+            <li>In a separate bowl, whisk together the flour, baking soda, and salt.
+                Gradually add the dry ingredients to the wet ingredients, mixing
+                until just combined.</li>
+            <li>Stir in the chocolate chips and chopped nuts (if using) until evenly
+                distributed throughout the dough.</li>
+            <li>Drop rounded tablespoons of dough onto the prepared baking sheets,
+                spacing them about 2 inches apart.</li>
+            <li>Bake in the preheated oven for 9 to 11 minutes, or until the edges
+                are golden brown.</li>
+            <li>Remove from the oven and allow the cookies to cool on the baking
+                sheets for a few minutes before transferring them to wire racks to
+                cool completely.</li>
         </ol>
-    </section>
+    </div>
 
-    <!-- Section for an image of chocolate chip cookie -->
-    <section>
+    <div class="section">
         <h2>Yummy Cookies Image</h2>
-        <img src="https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/62298.jpg" alt="Tasty Cookie!" width="600">
-    </section>
+        <img src="https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/62298.jpg" width="600" alt="Tasty Cookie!">
+    </div>
 
-    <!-- Paragraph using special characters -->
-    <section>
-        <p>
-            Don't forget to enjoy your Classic Chocolate Chip Cookies with a tall glass of milk &ndash; the perfect combination!
-        </p>
-    </section>
+    <div class="section">
+        Don't forget to enjoy your Classic Chocolate Chip Cookies with a tall
+        glass of milk -- the perfect combination!
+    </div>
+
+    <a href="recipe-submission.html" class="add-recipe-btn">Add Your Recipe</a>
 </body>
 </html>
-
